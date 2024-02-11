@@ -1,4 +1,4 @@
-def caesarCipher(s, k):
+def caesar_Cipher(s, k):
     res = ""
     for i in range(len(s)):
         if s[i].isalpha():
@@ -12,8 +12,8 @@ def caesarCipher(s, k):
 
 
 if __name__ == '__main__':
-    
+
     n = int(input().strip())
     s = input()
     k = int(input().strip())
-    result = caesarCipher(s, k)
+    result = caesar_Cipher(s, k)
