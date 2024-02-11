@@ -1,4 +1,4 @@
-from two_char.two_char_utils import get_char
+from two_char.two_char import get_char
 import unittest
 
 class Two_Charaters(unittest.TestCase):
