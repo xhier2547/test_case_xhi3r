@@ -1,4 +1,4 @@
-def alternatingCharacters(s):
+def alternating_Characters(s):
     delete = 0
     for i in range(1, len(s)):
         if s[i] == s[i-1]:
@@ -12,6 +12,6 @@ if __name__ == '__main__':
     for q_itr in range(q):
         s = input()
 
-        result = alternatingCharacters(s)
+        result = alternating_Characters(s)
         
         print(result)
